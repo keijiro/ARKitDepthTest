@@ -3,6 +3,7 @@
     "com.unity.inputsystem": "1.11.2",
     "com.unity.render-pipelines.universal": "17.0.3",
     "com.unity.xr.arkit": "6.0.3",
+    "jp.keijiro.metatex": "1.0.4",
     "com.unity.modules.uielements": "1.0.0"
   },
   "scopedRegistries": [
