@@ -204,8 +204,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _manager: {fileID: 333454741}
+  _ui: {fileID: 231048556}
   _material: {fileID: -876546973899608171, guid: 8da7012f5ae0946eebf0e158793e27a8, type: 3}
-  _uiRoot: {fileID: 231048556}
 --- !u!114 &333454741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -382,8 +382,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3859a92a05d4f5d418cb6ca605290e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AttemptUpdate: 0
-  m_MatchFrameRate: 0
+  m_AttemptUpdate: 1
+  m_MatchFrameRate: 1
   m_TrackingMode: 2
 --- !u!4 &1122980115
 Transform:
