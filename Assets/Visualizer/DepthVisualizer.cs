@@ -59,9 +59,10 @@ public sealed class DepthVisualizer : MonoBehaviour
         // Main loop
         while (true)
         {
-            source = _manager.environmentDepthTexture;
             _material.SetVector("_DepthRange", DepthRange);
-            Graphics.Blit(source, _converted, _material);
+            _material.SetTexture("_DepthMap", _manager.environmentDepthTexture);
+            _material.SetTexture("_ConfidenceMap", _manager.environmentDepthConfidenceTexture);
+            Graphics.Blit(null, _converted, _material);
             await Awaitable.NextFrameAsync();
         }
     }
